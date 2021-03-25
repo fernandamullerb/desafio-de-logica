@@ -10,7 +10,6 @@ public class DesafiodeLogicaDS1 {
         String digitos = teclado.next();
         int[] cpf = converterStringParaVetorInt(digitos);
 
-        // resolução do desafio:
         int l = cpf[0]*10 + cpf[1]*9 + cpf[2]*8 + cpf[3]*7 + cpf[4]*6 + cpf[5]*5 + cpf[6]*4 + cpf[7]*3 + cpf[8]*2;
         int restod10 = l % 11;
         int d10 = 0;
